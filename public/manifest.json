@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Fake Mic Crack",
+  "description": "Process microphone audio with deliberately degraded voice effects.",
+  "version": "0.1.0",
+  "action": {
+    "default_title": "Open Fake Mic Crack"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}
